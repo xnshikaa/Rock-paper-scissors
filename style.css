@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    border:border-box;
+    background-color: #fdffb6;
+}
+
+.images{
+    display:flex;
+    padding-top:25px;
+    height:300px;
+    justify-content: space-evenly;
+    border-color: black;
+}
+
+
+.images :hover{
+    opacity: 75%;
+    border: 50px;
+    border-color: black;
+    border-radius: 50%;
+}
+
+#header{
+    height:100px;
+}
+
+h1{
+    background-color: #90e0ef;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: xx-large;
+}
+
+h2{
+    background-color: #caf0f8;
+    text-align: center;
+    font-size: xx-large;
+    padding-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#scoreboard{
+    font-size: x-large;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#scoreboard1{
+    margin-right:60px;
+    font-size: xx-large;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap:5rem;
+}
+
+#play{
+    text-align: center;
+    background-color:#fa7aa6;
+    color: white;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    padding-top: 10px;
+    font-style: italic;
+}
